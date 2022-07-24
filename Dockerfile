@@ -17,7 +17,7 @@ EXPOSE 8765
 RUN mkdir /hbase-setup
 WORKDIR /hbase-setup
 
-ENV HBASE_VERSION 2.0.2
+ENV HBASE_VERSION 2.1.0
 ADD ./install-hbase.sh /hbase-setup/
 RUN ./install-hbase.sh
 
